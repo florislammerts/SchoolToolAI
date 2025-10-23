@@ -4,6 +4,7 @@ import streamlit as st
 import sqlite3
 from PyPDF2 import PdfReader
 import openai
+st.session_state.logged_in = True
 from google.cloud import texttospeech
 from io import BytesIO
 from datetime import datetime
